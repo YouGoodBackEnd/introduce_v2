@@ -4,6 +4,12 @@ body {
 }
 
 * {
+  font-family: "Pretendard";
+  font-style: normal;
   margin: 0px;
   padding: 0px;
+}
+
+button {
+  cursor: pointer;
 }
