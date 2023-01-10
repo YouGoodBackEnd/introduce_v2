@@ -1,12 +1,12 @@
 import styled from "styled-components";
 import { navList } from "./constant";
-import logo from "../../assets/svgs/logo.svg";
+import Logo from "../../assets/svgs/Logo";
 
 const Header = () => {
   return (
     <_Wrapper>
       <_LogoSection>
-        <img src={logo} />
+        <Logo size="30" />
         <p>Dang-You-Back</p>
       </_LogoSection>
       <nav>
